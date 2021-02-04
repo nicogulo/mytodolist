@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import { render } from '@testing-library/react';
+import './index.css';
 import { Component } from 'react';
 import List from './List';
+import { Button, Form} from 'react-bootstrap';
 
 class App extends Component{
   constructor(props){
@@ -29,13 +29,21 @@ class App extends Component{
   }
     render() {
       return (
-        <div>
-        <form onSubmit = {this.handleSubmit}>
-          <input value={this.state.todoItem} onChange={this.handleChange}/>
-          <button>Add</button>
-        </form>
-
+        <div id= "app">
+        <div class= "item">
+          <h1>TODO LIST</h1>
+          <Form onSubmit = {this.handleSubmit} >
+              <Form.Group>
+                <Form.Control class="input" value={this.state.todoItem} onChange={this.handleChange} />
+              </Form.Group>
+              <div class="text-center">
+                <Button text-center type="submit">
+                  Submit
+                </Button>
+              </div>
+          </Form>
         <List items={this.state.items}/>
+      </div>
       </div>
     );
   }

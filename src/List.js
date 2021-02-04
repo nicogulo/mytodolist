@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './index.css'
 
 function List(props){
   return(
     <ul>
-      {props.items.map((item, index) => <li key={index}>{item}</li>) }
+      {props.items.map((item, index) => <li key={index}>{item }</li>) }
     </ul>
    )
 }
