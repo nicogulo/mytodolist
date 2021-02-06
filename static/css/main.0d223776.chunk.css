@@ -1,0 +1,2 @@
+ul{list-style-type:circle}:root{--primary-bg:#102261;--secondary-bg:#fdcb2c;--third-bg:#e5e5e5;--font-pm:#929292;--font-title:#666}#app{background:#102261;background:var(--primary-bg);position:relative;width:480px;margin:0 auto;overflow-x:hidden;min-height:100vh;padding-bottom:60px;color:#e5e5e5;color:var(--third-bg)}h1{color:#fdcb2c;color:var(--secondary-bg)}.item{margin:20px}
+/*# sourceMappingURL=main.0d223776.chunk.css.map */

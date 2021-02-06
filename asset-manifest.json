@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nicogulo/mytodolist/static/css/main.0d223776.chunk.css",
+    "main.js": "/nicogulo/mytodolist/static/js/main.f5ac40db.chunk.js",
+    "main.js.map": "/nicogulo/mytodolist/static/js/main.f5ac40db.chunk.js.map",
+    "runtime-main.js": "/nicogulo/mytodolist/static/js/runtime-main.6455e1c8.js",
+    "runtime-main.js.map": "/nicogulo/mytodolist/static/js/runtime-main.6455e1c8.js.map",
+    "static/css/2.150d169a.chunk.css": "/nicogulo/mytodolist/static/css/2.150d169a.chunk.css",
+    "static/js/2.75fe241f.chunk.js": "/nicogulo/mytodolist/static/js/2.75fe241f.chunk.js",
+    "static/js/2.75fe241f.chunk.js.map": "/nicogulo/mytodolist/static/js/2.75fe241f.chunk.js.map",
+    "static/js/3.0e9998e8.chunk.js": "/nicogulo/mytodolist/static/js/3.0e9998e8.chunk.js",
+    "static/js/3.0e9998e8.chunk.js.map": "/nicogulo/mytodolist/static/js/3.0e9998e8.chunk.js.map",
+    "index.html": "/nicogulo/mytodolist/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/nicogulo/mytodolist/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.0d223776.chunk.css.map": "/nicogulo/mytodolist/static/css/main.0d223776.chunk.css.map",
+    "static/js/2.75fe241f.chunk.js.LICENSE.txt": "/nicogulo/mytodolist/static/js/2.75fe241f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6455e1c8.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.75fe241f.chunk.js",
+    "static/css/main.0d223776.chunk.css",
+    "static/js/main.f5ac40db.chunk.js"
+  ]
+}
