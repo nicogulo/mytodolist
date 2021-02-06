@@ -2,7 +2,7 @@ import './App.css';
 import './index.css';
 import { Component } from 'react';
 import List from './List';
-import { Button, Form} from 'react-bootstrap';
+import { Button, Form, Container, Row, Col} from 'react-bootstrap';
 
 class App extends Component{
   constructor(props){
@@ -30,7 +30,11 @@ class App extends Component{
     render() {
       return (
         <div id= "app">
-        <div class= "item">
+
+        <Container>
+        <Row>
+          <Col className="text-center">
+          <div class= "item">
           <h1>TODO LIST</h1>
           <Form onSubmit = {this.handleSubmit} >
               <Form.Group>
@@ -41,9 +45,13 @@ class App extends Component{
                   Submit
                 </Button>
               </div>
-          </Form>
+              </Form>
+            
+          </div>
+          </Col>
+        </Row>
         <List items={this.state.items}/>
-      </div>
+        </Container>
       </div>
     );
   }
