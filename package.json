@@ -3,8 +3,7 @@
   "name": "mytodoolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nicogulo.github.io/mytodolist/",
-  "dependencies": {
+    "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
@@ -19,9 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d deploy"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -37,12 +34,8 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 edge version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   },
   "description": "this is my second app with React after Darkmode and I try to use bootstrap",
   "main": "index.js",
